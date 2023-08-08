@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/homestyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="/img/eduford_img/logo.png" alt=""></a>
+            <div id="nav-links" class="nav-links"> 
+                <i class="fa fa-close" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Our certificate & online program for 2021</h1>
+    </section>
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="/img/eduford_img/certificate.jpg" alt="">
+                <h2>Our certificate & online program for 2021</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim eum doloribus adipisci quisquam eligendi quasi. Quia perspiciatis sapiente laboriosam ratione deleniti pariatur veniam expedita eveniet.</p><br>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et aspernatur unde dolore incidunt. Ratione molestias itaque et beatae illum corporis earum laborum omnis eveniet officiis!</p><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ipsam nesciunt consequuntur facere expedita, pariatur recusandae nemo nisi minus corporis error saepe soluta hic beatae!</p><br>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam expedita harum est sint, asperiores quidem in dolorum illo debitis molestiae natus ad rem nulla ipsa repudiandae consequatur a ratione minus quod rerum voluptate nisi.</p>
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form action="" class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form>
+                </div>
+
+
+            </div>
+            <div class="blog-right">
+                <h3>post categories</h3>
+                <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+                <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+                <div>
+                <span>Computer Sciennce</span>
+                <span>34</span>
+            </div>
+                <div>
+                <span>Auto CAD</span>
+                <span>42</span>
+            </div>
+                <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+                <div>
+                <span>commerce</span>
+                <span>30</span>
+            </div>
+            </div>
+        </div>
+    </section>
+  
+
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus adipisci excepturi at, <br> voluptate voluptas totam placeat nesciunt ipsam debitis temporibus!</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <p>Made With<i class="fa fa-heart"></i>By Easy Tutorials</p>
+
+        </section>
+    </div>
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-130px"
+
+        }
+    </script>
+ 
+</body>
+</html>

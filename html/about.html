@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/homestyle.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="home.html"><img src="/img/eduford_img/logo.png" alt=""></a>
+            <div id="nav-links" class="nav-links"> 
+                <i class="fa fa-close" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About us</h1>
+    </section>
+    <section class="about_us">
+        <div class="row">
+            <div class="about_col">
+                <h1>We Are The World`s Largest University</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur ducimus harum sit mollitia expedita quibusdam odit. Animi repudiandae harum quidem officia iste necessitatibus, commodi voluptas! Aliquid praesentium provident eligendi temporibus?</p>
+                <a href=""  class="hero-btn red-btn">Explore Now</a>
+            </div>
+            <div class="about_col">
+                <img src="/img/eduford_img/about.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+        <section class="footer">
+            <h4>About us</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus adipisci excepturi at, <br> voluptate voluptas totam placeat nesciunt ipsam debitis temporibus!</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <p>Made With<i class="fa fa-heart"></i>By Easy Tutorials</p>
+
+        </section>
+    </div>
+    <script>
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right ="0";
+        }
+        function hideMenu(){
+            navLinks.style.right ="-130px"
+
+        }
+    </script>
+ 
+</body>
+</html>
